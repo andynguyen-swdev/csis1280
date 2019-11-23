@@ -54,20 +54,17 @@
 
                 <div class="social-container">
                     <a class="social-container__button" href="https://www.facebook.com" target="_blank">
-                        <img src="images/facebook.png"
-                            class="social-container__icon">
+                        <img src="images/facebook.png" class="social-container__icon">
                         <p class="social-container__name">Facebook</p>
                     </a>
 
                     <a class="social-container__button" href="https://www.instagram.com" target="_blank">
-                        <img src="images/instagram.png"
-                            class="social-container__icon">
+                        <img src="images/instagram.png" class="social-container__icon">
                         <p class="social-container__name">Instagram</p>
                     </a>
 
                     <a class="social-container__button" href="https://github.com" target="_blank">
-                        <img src="images/github-sign.png"
-                            class="social-container__icon">
+                        <img src="images/github-sign.png" class="social-container__icon">
                         <p class="social-container__name">Github</p>
                     </a>
                 </div>
@@ -120,19 +117,49 @@
                         •&nbsp;&nbsp;Developed a social network and e-commerce web backend with 1M+ users using Node.js.
                     </p>
                     <p class="text-group__text">
-                        •&nbsp;&nbsp;Pioneered in utilizing React Native for cross-platform application development, which resulted
+                        •&nbsp;&nbsp;Pioneered in utilizing React Native for cross-platform application development,
+                        which resulted
                         in a 70% decrease in development time.
                     </p>
                     <p class="text-group__text">
-                        •&nbsp;&nbsp;Implemented an abstraction for an UI framework originally written in Obj-C using Swift to
+                        •&nbsp;&nbsp;Implemented an abstraction for an UI framework originally written in Obj-C using
+                        Swift to
                         improve the productivity of colleagues.
                     </p>
                     <p class="text-group__text">
-                        •&nbsp;&nbsp;Solved the problem of coordinating deployment on multiple servers with Docker Swarm, thereby
+                        •&nbsp;&nbsp;Solved the problem of coordinating deployment on multiple servers with Docker
+                        Swarm, thereby
                         significantly simplified deployment and improved updating time.
                     </p>
 
                 </div>
+            </section>
+            <section class="section">
+                <h2 class="section__title">Contact Me</h2>
+                <div>
+                    <hr class="hr">
+                </div>
+                <form action="https://formspree.io" method="POST" class="contact-form">
+                    <p class="contact">
+                        <label class="contact__label" for="name">Name<span class="contact__required">*</span></label>
+                        <input class="contact__input" type="text" id="name" placeholder="Your name" required>
+                    </p>
+                    <p class="contact">
+                        <label class="contact__label" for="phone">Phone</label>
+                        <input class="contact__input" type="tel" id="phone" placeholder="Your phone number">
+                    </p>
+                    <p class="contact">
+                        <label class="contact__label" for="email">Email<span class="contact__required">*</span></label>
+                        <input class="contact__input" type="email" id="email" placeholder="Your email address" required>
+                    </p>
+                    <p class="contact contact--message">
+                        <label class="contact__label" for="message">Message<span
+                                class="contact__required">*</span></label>
+                        <textarea class="contact__input" id="message" cols="30" rows="10" placeholder="Your message"
+                            required></textarea>
+                    </p>
+                    <input class="contact-form__submit" type="submit" value="Submit">
+                </form>
             </section>
         </div>
 
